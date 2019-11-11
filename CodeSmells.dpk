@@ -1,0 +1,49 @@
+package CodeSmells;
+
+{$R *.res}
+{$R *.dres}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION OFF}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES ON}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DEFINE DEBUG}
+{$ENDIF IMPLICITBUILDING}
+{$DESCRIPTION 'Code Smells Expert - When code really smells!'}
+{$DESIGNONLY}
+{$IMPLICITBUILD ON}
+
+requires
+  rtl,
+  vclx,
+  vcl,
+  DesignIDE;
+
+contains
+  CodeSmells.Entities.FartTypes in 'CodeSmells.Entities.FartTypes.pas',
+  CodeSmells.Services.FartPlayer in 'CodeSmells.Services.FartPlayer.pas',
+  CodeSmells.Experts.FartNotifier in 'CodeSmells.Experts.FartNotifier.pas',
+  CodeSmells.Resources.FartMessages in 'CodeSmells.Resources.FartMessages.pas',
+  CodeSmells.Dialogs.OptionForm in 'CodeSmells.Dialogs.OptionForm.pas' {OptionForm},
+  CodeSmells.Entities.FartOptions in 'CodeSmells.Entities.FartOptions.pas',
+  CodeSmells.Experts.MenuWizard in 'CodeSmells.Experts.MenuWizard.pas',
+  CodeSmells.Registration in 'CodeSmells.Registration.pas';
+
+end.
