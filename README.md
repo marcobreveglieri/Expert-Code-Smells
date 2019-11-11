@@ -2,7 +2,7 @@
 
 "Code Smells" is a funny add-on for Embarcadero Delphi that **plays a fart every time the compilation fails**. 😄
 
-It has been built for [ITDevConX Delphi Conference](http://www.itdevcon.it/) as an example of how you can create a simple but functional expert for the Delphi IDE using the [*Open Tools API*](docwiki.embarcadero.com/RADStudio/en/Extending_the_IDE_Using_the_Tools_API).
+It has been built for [ITDevConX Delphi Conference](http://www.itdevcon.it/) as an example of how you can create a simple but functional expert for the Delphi IDE using the [*Open Tools API*](http://docwiki.embarcadero.com/RADStudio/en/Extending_the_IDE_Using_the_Tools_API).
 
 The original idea, the audio files and the fart descriptions has been taken from the [Farticus plugin](https://github.com/madskristensen/Farticus) made for Visual Studio by [Mads Kristensen](https://github.com/madskristensen).
 
