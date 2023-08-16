@@ -23,5 +23,6 @@ You can enable/disable and configure the tool from the *Options* dialog availabl
 Continue to work in Delphi... everytime you compile your project, in case of errors you will hear a rather annoying noise.
 Have fun!! 
 
-----------------
-Created by: **Marco Breveglieri** (https://www.breveglieri.it)
+## Additional credits
+
+Thanks to [Ya-Zahra](https://github.com/Ya-Zahra) for Delphi 7 version!
