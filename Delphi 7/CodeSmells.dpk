@@ -1,0 +1,22 @@
+package CodeSmells;
+
+{$R 'sounds.res'}
+{$DESCRIPTION '_Code Smells Expert - When code really smells!'}
+
+requires
+  rtl,
+  vclx,
+  vcl,
+  DesignIDE;
+
+contains
+  CodeSmells_Entities_FartTypes in 'CodeSmells_Entities_FartTypes.pas',
+  CodeSmells_Services_FartPlayer in 'CodeSmells_Services_FartPlayer.pas',
+  CodeSmells_Experts_FartNotifier in 'CodeSmells_Experts_FartNotifier.pas',
+  CodeSmells_Resources_FartMessages in 'CodeSmells_Resources_FartMessages.pas',
+  CodeSmells_Dialogs_OptionForm in 'CodeSmells_Dialogs_OptionForm.pas' {OptionForm},
+  CodeSmells_Entities_FartOptions in 'CodeSmells_Entities_FartOptions.pas',
+  CodeSmells_Experts_MenuWizard in 'CodeSmells_Experts_MenuWizard.pas',
+  CodeSmells_Registration in 'CodeSmells_Registration.pas';
+
+end.
